@@ -56,8 +56,3 @@ console.log(sayHelloTo2.apply(person));
 var myAdd = function(a, b, c) {
   console.log(arguments);
 }
-
-
-
-console.log(todo3);
-console.log(todo3.description);
