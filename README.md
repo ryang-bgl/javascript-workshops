@@ -1,3 +1,13 @@
+# Setup
+## Install Web Server for Chrome plugin
+[Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en)
+## Clone this repo
+
+```shell
+git clone https://github.com/ruiyang/javascript-workshops.git
+```
+## Set Web Server for Chrome to use the repo root as its web server root
+
 # Object
 ## Create an object
   - Object.create
