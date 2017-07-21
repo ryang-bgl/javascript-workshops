@@ -56,3 +56,39 @@ console.log(sayHelloTo2.apply(person));
 var myAdd = function(a, b, c) {
   console.log(arguments);
 }
+
+
+// closure
+// register event handler
+
+// let nodes = document.getElementsByClassName('node');
+// let count = nodes.length;
+
+// using let, good
+// for (let i = 0; i < count; i++) {
+//   nodes[i].onclick = function (e) {alert(i);}
+// }
+
+// using var, unexpected
+let nodes = document.getElementsByClassName('node');
+let count = nodes.length;
+for (var i = 0; i < count; i++) {
+  nodes[i].onclick = function (e) {alert(i);}
+}
+
+
+// babel's compiled output using let
+// var nodes = document.getElementsByClassName('node');
+// var count = nodes.length;
+
+// function _loop(i) {
+//   nodes[i].onclick = function (e) {
+//     alert(i);
+//   };
+// };
+
+// for (var i = 0; i < count; i++) {
+//   _loop(i);
+// }
+
+//

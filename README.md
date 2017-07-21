@@ -101,11 +101,13 @@ console.log(sayHelloTo2.apply(person));
 ## Hidden paramers
   - arguments
   - this
+
 ```javascript
 var myAdd = function(a, b, c) {
   console.log(arguments);
 }
 ```
+
 ## Declare variables: Let vs Var
   - let is block scoped
   - var is function scoped
@@ -134,6 +136,10 @@ var person = function (name) {
     }
   };
 }('Hellen');
+```
+
+```javascript
+document.getElementsByClassName('test-node').each
 ```
 # Inheritance
 ## Goal of inheritance
@@ -212,5 +218,3 @@ var myCat = cat({name: 'Henrietta'});
 myCat.purr(2);
 myCat.get_name();
 ```
-
-
