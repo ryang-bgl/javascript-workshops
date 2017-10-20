@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <script src="resource/jquery.js"></script>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+
+    <style>
+      button {
+        display: block;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+
+      <h1>Event breakpoints</h1>
+      <ul>
+        <li>Add breakpoint on event</li>
+        <li>Add breakpoint on global event</li>
+        <li>Find the event listener code for an element</li>
+        <li>Not easy to locate the code when some framework is used (Try black box the framework script)</li>
+      </ul>
+      
+      <button id="click-to-expand">Click me to add a item</button>
+      <button id="click-to-remove">Click me to move a item</button>
+      <button id="click-to-color">Click me to change item's color</button>
+      <ul id="panel">
+      </ul>
+
+      <div>
+        <h1>React app</h1>
+        <div id="app"></div>
+      </div>
+      <script src="04.event-breakpoints.js"></script>
+      <script>
+       
+      </script>
+  </body>
+</html>
